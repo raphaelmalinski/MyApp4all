@@ -8,10 +8,17 @@ import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
 
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        val changeBgColorButton: Button = findViewById(R.id.changeBgColorButton)
+        changeBgColorButton.setOnClickListener {
+            changeBgColor()
+        }
+    }
+
     private fun changeBgColor() {
         val timestamp = timeStamp().toString()
         val lastChar = timestamp.substring(timestamp.length-1)
