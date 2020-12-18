@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">My App 4all</string>
-    <string name="changeColor">Change Color</string>
+    <string name="changeBgColor">Change Color</string>
+    <string name="mainTitle">Go 4all</string>
 </resources>
